@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "40ee7dc22d4afe7f1d9896d9681e71232f4f0e82976aef50b37f1a0a2b59c692"
+            "sha256": "30eb7d8f3eb2210e0ea7d8498fe0ec0b6b6eed57d648f125d72296b8ffc6ff6e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -73,6 +73,21 @@
             "index": "pypi",
             "version": "==0.0.7"
         },
+        "django-classy-tags": {
+            "hashes": [
+                "sha256:792f9161d0e22d55b4fab6fc297bab8ab072ffaa3075b227613a6d8473624db8",
+                "sha256:f6d12f5a4df3e387795a0d9ef2836af389cae9a1fbebda035dac043d4722b1f7"
+            ],
+            "version": "==0.8.0"
+        },
+        "django-cms": {
+            "hashes": [
+                "sha256:72ca485c2bf8bf06ac6fb98be05312a48eb5a57dd0cbc0c078334ddbfecd43b8",
+                "sha256:975d749c1cf963300f8947429b3f8688898d47885306f08120303fc458104bd4"
+            ],
+            "index": "pypi",
+            "version": "==3.5.3"
+        },
         "django-environ": {
             "hashes": [
                 "sha256:e9c171b9d5f540e6f3bc42866941d9cd0bd77fb110a7c13a7c4857a2c08cfa40",
@@ -80,6 +95,32 @@
             ],
             "index": "pypi",
             "version": "==0.4.4"
+        },
+        "django-formtools": {
+            "hashes": [
+                "sha256:7703793f1675aa6e871f9fed147e8563816d7a5b9affdc5e3459899596217f7c",
+                "sha256:cb2bd7c29c2104278e5a0e76f7ff256b9570acf11485d547ee0c1b35347359fb"
+            ],
+            "version": "==2.1"
+        },
+        "django-sekizai": {
+            "hashes": [
+                "sha256:39c5d16ad694aa78278ca84fdc7b9f953ebcf94e2fc95b68c875d02014303260",
+                "sha256:cbd48e7be29e8cc4108476b9420d7c391fc509a504bc20b60616b116ba6ea51e"
+            ],
+            "version": "==0.10.0"
+        },
+        "django-treebeard": {
+            "hashes": [
+                "sha256:c21db06a8d4943bf2a28d9d7a119058698fb76116df2679ecbf15a46a501de42"
+            ],
+            "version": "==4.3"
+        },
+        "djangocms-admin-style": {
+            "hashes": [
+                "sha256:c194371260121f48f188e237c5d642b75657594374d21a18b7d77e89e10eb3ee"
+            ],
+            "version": "==1.2.9"
         },
         "djangorestframework": {
             "hashes": [
@@ -231,6 +272,7 @@
                 "sha256:502a824f31acdacb3a35b6690b5fbf0bc41d63a24a45c4004352b0242707598e",
                 "sha256:7bf2a778576d825600030a110f3c0e3e8edc51dfaafe1c146e39a2027784957b"
             ],
+            "markers": "python_version >= '3.0'",
             "version": "==2.21.0"
         },
         "requests-oauthlib": {
