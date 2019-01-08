@@ -7,6 +7,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'google-api-python-client', 'url': 'http://pypi.python.org/pypi/google-api-python-client/1.6.4'},
 	{'name':'django-cms', 'url': 'http://pypi.python.org/pypi/django-cms/3.4.5'},
 	{'name':'twilio', 'url': 'http://pypi.python.org/pypi/twilio/6.10.0'},
 	{'name':'google-assistant-sdk', 'url': 'http://pypi.python.org/pypi/google-assistant-sdk/0.4.2'},
